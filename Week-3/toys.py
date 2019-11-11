@@ -53,12 +53,12 @@ def is_even(a):
 # 'hohoho'
 def string_repeat(phrase, repeat):
 
-    s = str()
-    for sentance in range(repeat):
-     s += phrase
-    print(s)
+    #s = str()
+    #for sentance in range(repeat):
+    #    s += phrase
+    return phrase*repeat
+    #print(s)
     # hint: you can add strings together 
     # in order to concatenate them
 
-string_repeat('ha', 3)
-
+string_repeat('hey', 4)
